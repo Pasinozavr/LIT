@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{84FD236B-415F-4667-87BB-1C086C7609AC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Квалификационная_работа.My.MyApplication</StartupObject>
+    <RootNamespace>Квалификационная_работа</RootNamespace>
+    <AssemblyName>Квалификационная работа</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Квалификационная работа.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Квалификационная работа.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\text2987.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="answers.Designer.vb">
+      <DependentUpon>answers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="answers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="authorization.Designer.vb">
+      <DependentUpon>authorization.vb</DependentUpon>
+    </Compile>
+    <Compile Include="authorization.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BonusVideos.Designer.vb">
+      <DependentUpon>BonusVideos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BonusVideos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralTests.Designer.vb">
+      <DependentUpon>GeneralTests.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralTests.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help.Designer.vb">
+      <DependentUpon>Help.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Help.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="info.Designer.vb">
+      <DependentUpon>info.vb</DependentUpon>
+    </Compile>
+    <Compile Include="info.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loneliness.Designer.vb">
+      <DependentUpon>Loneliness.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Loneliness.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.vb">
+      <DependentUpon>MainMenu.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Motivation.Designer.vb">
+      <DependentUpon>Motivation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Motivation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PsychologistStart.Designer.vb">
+      <DependentUpon>PsychologistStart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PsychologistStart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PupiLStart.Designer.vb">
+      <DependentUpon>PupiLStart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PupiLStart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search.Designer.vb">
+      <DependentUpon>Search.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Search.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Self-concept.Designer.vb">
+      <DependentUpon>Self-concept.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Self-concept.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Temperament.Designer.vb">
+      <DependentUpon>Temperament.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Temperament.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Willpower.Designer.vb">
+      <DependentUpon>Willpower.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Willpower.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="answers.resx">
+      <DependentUpon>answers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="authorization.resx">
+      <DependentUpon>authorization.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BonusVideos.resx">
+      <DependentUpon>BonusVideos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralTests.resx">
+      <DependentUpon>GeneralTests.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help.resx">
+      <DependentUpon>Help.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="info.resx">
+      <DependentUpon>info.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loneliness.resx">
+      <DependentUpon>Loneliness.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Motivation.resx">
+      <DependentUpon>Motivation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PsychologistStart.resx">
+      <DependentUpon>PsychologistStart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PupiLStart.resx">
+      <DependentUpon>PupiLStart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search.resx">
+      <DependentUpon>Search.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Self-concept.resx">
+      <DependentUpon>Self-concept.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Temperament.resx">
+      <DependentUpon>Temperament.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Willpower.resx">
+      <DependentUpon>Willpower.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man-enjoying-freedom-pink-sky-pictures.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\l2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text3012-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abyss-bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Slider-CommercialBG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cubes-bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Internet-Defamation-Moving-Fast-1000x500.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Зависимость\Addiction1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\перезагрузка-и-выключение.jpg" />
+    <None Include="Resources\text3892.png" />
+    <None Include="Resources\Оранжевый-фон.jpg" />
+    <None Include="Resources\йцу.jpg" />
+    <None Include="Resources\rect2991.png" />
+    <None Include="Resources\rect29911.png" />
+    <None Include="Resources\rect29912.png" />
+    <None Include="Resources\знак вопроса.jpg" />
+    <None Include="Resources\765-10.jpg" />
+    <None Include="Resources\фыв.png" />
+    <None Include="Resources\1.PNG" />
+    <None Include="Resources\Снимок.PNG" />
+    <None Include="Resources\вправо.png" />
+    <None Include="Resources\вправо1.png" />
+    <None Include="Resources\влево.png" />
+    <None Include="Resources\13.jpg" />
+    <None Include="Resources\4.jpg" />
+    <None Include="Resources\41.jpg" />
+    <None Include="Resources\3.jpg" />
+    <None Include="Resources\5.png" />
+    <None Include="Resources\42.jpg" />
+    <None Include="Resources\anywalls.com-12913.jpg" />
+    <None Include="Resources\index.jpg" />
+    <None Include="Resources\poverhnost_linii_pyatna_fon_1920x1200.jpg" />
+    <None Include="Resources\auzenk.jpg" />
+    <None Include="Resources\HP_Compaq_6510b_Notebook_PC_front_high.jpg" />
+    <None Include="Resources\1.gif" />
+    <Content Include="Resources\text2987.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль Microsoft .NET Framework 4 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль .NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Установщик Windows 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
